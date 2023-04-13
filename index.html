@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>форма</title>
+</head>
+<body>
+	<div>
+		<h1>Анкета ученика</h1>
+		<form>
+			<fieldset>
+				<br>
+				<legend>Контактная информация</legend>
+				<input type="text" placeholder="Введите имя">
+				<br> <br>
+				<input type="number" placeholder="Введите номер телефона">
+				<br> <br>
+				<input type="email" placeholder="Введите email">
+				<br><br>
+			</fieldset>
+			<br>
+			<fieldset>
+				<br>
+				<legend>Личная информация</legend>
+				<label>Ваш возраст</label>
+				<input type="number">
+				<br><br>
+				<label>Дата рождения</label>
+				<input type="date">
+				<br><br>
+				<label>По какому курсу занимаетесь</label>
+				<select>
+					<option>Scratch</option>
+					<option>html</option>
+					<option>css</option>
+				</select>
+				<br><br>
+			</fieldset>
+			<br>
+			<fieldset>
+				<br>
+				<legend>Обратная связь</legend>
+				<label>Посоветуете ли Вы нас друзьям?</label>
+				<br>
+				<input class="radio ball" type="radio" name="radio">
+				<label class="radio">Да</label>
+				<input class="radio ball" type="radio" name="radio">
+				<label class="radio">Конечно</label>
+				<input class="radio ball" type="radio" name="radio">
+				<label class="radio">Нет</label>
+				<br><br>
+				<label>Оставьте комментарий :)</label>
+				<br>
+				<textarea></textarea>
+				<br><br>
+			</fieldset>
+			<br>
+			<input class="checkbox ball" type="checkbox" >
+			<label class="checkbox ">Разрешить обработку данныx</label>
+			<input class="checkbox ball" type="checkbox" >
+			<label class="checkbox">Оправлять новости на почту</label>
+			<br><br>
+			<button>Отправить</button>
+		</form>
+	</div>
+</body>
+</html>
